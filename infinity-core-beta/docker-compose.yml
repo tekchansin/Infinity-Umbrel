@@ -11,5 +11,12 @@ services:
     restart: on-failure
     stop_grace_period: 30s
     volumes:
-      - ${APP_DATA_DIR}/data:/data                       # library, settings, updates (removed with the app)
-      - ${UMBREL_ROOT}/data/storage/downloads:/music     # Files › Downloads; rw: tag editor, copies from a DAP
+      - ${APP_DATA_DIR}/data:/data                            # library, settings, updates (removed with the app)
+      - ${UMBREL_ROOT}/data/storage/downloads/music:/music    # Music Library's default (umbrel-app.yml folderAccess);
+                                                              # rw: the tag editor, music copied from a DAP
+      # a DAC on the box (core/audio_out_alsa.cpp: ALSA hw:, bit-perfect, native DSD) — the directory, not `devices:`, so
+      # a box with no sound card still starts and a DAC plugged in later shows up; the rule lets ALSA's nodes open.
+      # No /proc/asound or systempaths=unconfined: the Core finds cards through /dev/snd and sysfs (masked /proc is fine)
+      - /dev/snd:/dev/snd
+    device_cgroup_rules:
+      - "c 116:* rwm"  # ALSA (major 116)
