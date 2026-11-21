@@ -1,0 +1,4 @@
+# umbrelOS community app store: https://github.com/tekchansin/Infinity-Umbrel
+# Every app id here must start with this id ("infinity-…").
+id: "infinity"
+name: "Infinity"

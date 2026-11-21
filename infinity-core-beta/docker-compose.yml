@@ -1,0 +1,15 @@
+version: "3.7"
+
+# Same image + run.sh Docker mode as the README's compose (--lan --web, UI on :8930, self-update into /data).
+# Host network like Umbrel's home-assistant app — no app_proxy: the Core must see the LAN (mDNS, SSDP) to find DAPs and
+# speakers, and Umbrel's proxy cannot route to a host-network service. Its own browser pairing guards the page.
+# ponytail: amd64-only image (no arm64 index entry yet) — Umbrel's official store needs both; fine for a community store.
+services:
+  server:
+    image: ghcr.io/tekchansin/infinity-core:14.0-beta15@sha256:90d351c8be4b248d7243ca4d3d5c1a408f073ef12dcff5add349c945fb640346
+    network_mode: host
+    restart: on-failure
+    stop_grace_period: 30s
+    volumes:
+      - ${APP_DATA_DIR}/data:/data                       # library, settings, updates (removed with the app)
+      - ${UMBREL_ROOT}/data/storage/downloads:/music     # Files › Downloads; rw: tag editor, copies from a DAP

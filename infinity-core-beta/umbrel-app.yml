@@ -1,0 +1,30 @@
+manifestVersion: 1.1
+id: infinity-core-beta
+category: media
+name: Infinity Core (beta)
+version: "14.0-beta15"
+tagline: Your music library, Qobuz and TIDAL on your Infinity DAP and speakers
+icon: https://raw.githubusercontent.com/tekchansin/Infinity-Umbrel/main/infinity-core-beta/icon.png
+description: >-
+  Your music library, Qobuz and TIDAL — played on your Infinity DAP, AirPlay, Google Cast or UPnP speakers.
+  The music you put in Files › Downloads is your library.
+
+
+  The first time you open it, the page asks for a six-digit code: press Show a code, then find the code in
+  this app's logs (right-click the app › Settings › View logs) and type it. Each browser asks once.
+releaseNotes: ""
+developer: Anantar Ultimate
+website: https://anantarultimate.com
+dependencies: []
+repo: https://github.com/tekchansin/Infinity-Umbrel
+support: https://discord.gg/Z9T8VfshVs
+port: 8930
+gallery: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+torOnly: false
+permissions:
+  - STORAGE_DOWNLOADS
+submitter: Anantar Ultimate
+submission: ""
