@@ -2,7 +2,7 @@ manifestVersion: 1.1
 id: infinity-core-beta
 category: media
 name: Infinity Core (beta)
-version: "14.0-beta15"
+version: "14.0-beta17"
 tagline: Your music library, Qobuz and TIDAL on your Infinity DAP and speakers
 icon: https://raw.githubusercontent.com/tekchansin/Infinity-Umbrel/main/infinity-core-beta/icon.png
 description: >-
@@ -12,7 +12,9 @@ description: >-
 
   The first time you open it, the page asks for a six-digit code: press Show a code, then find the code in
   this app's logs (right-click the app › Settings › View logs) and type it. Each browser asks once.
-releaseNotes: ""
+releaseNotes: >-
+  Fixes: Infinity Core now asks every browser and app on your network to pair, as it should — before, a device on
+  your network could use it without pairing on Umbrel.
 developer: Anantar Ultimate
 website: https://anantarultimate.com
 dependencies: []
