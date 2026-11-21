@@ -22,7 +22,7 @@ environment:
     note: Your time zone, e.g. Asia/Bangkok or Europe/London — for the daily backup and the times Infinity Core shows.
 category: media
 name: Infinity Core (beta)
-version: "14.0-beta18"
+version: "14.0-beta19"
 tagline: Your music library, Qobuz and TIDAL on your Infinity DAP and speakers
 icon: https://raw.githubusercontent.com/tekchansin/Infinity-Umbrel/main/infinity-core-beta/icon.png
 description: >-
@@ -35,9 +35,10 @@ description: >-
   shown in a browser that is already paired (Settings › Devices & Sharing) or in this app's logs (right-click the
   app › Settings › View logs).
 releaseNotes: >-
-  Set up in one click: the first browser presses Start using Infinity Core — no code to find in the logs. Pick your
-  music folder (right-click › Settings › Music Library — until you do, Files › Downloads › music), set the name DAPs see
-  and your time zone, play on a USB DAC plugged into your Umbrel, and name your music folders in Settings › Library.
+  Folders is a file manager now: upload by dragging files in, download as .zip, copy, move, rename and delete, with
+  full file info. Duplicates (Settings › Library Health) keeps one copy and removes the rest. AI with your own key
+  (beta, Settings › AI), a new Home with a listening diary, better covers (incl. Search on COV) and a name for your
+  Infinity Core (Settings › General). Updates come from the Umbrel App Store, as before.
 developer: Anantar Ultimate
 website: https://anantarultimate.com
 dependencies: []
