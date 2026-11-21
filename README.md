@@ -18,20 +18,26 @@ More: https://anantarultimate.com/infinity-core.html · Help: https://discord.gg
 
 ## First time
 
-Open Infinity Core. The page asks for a six-digit code, once per browser:
+Open Infinity Core and press **Start using Infinity Core**. That browser is the first one; from then on, every other
+browser and app pairs with a six-digit code:
 
-1. Press **Show a code**.
-2. Right-click the Infinity Core icon › **Settings** › **View logs**. The code is the line *Pairing code for your
-   browser*.
-3. Type it on the page. It works once, for 5 minutes.
+- **Another browser:** in a browser that is already paired, open Settings › Devices & Sharing › Pair an Infinity Core ›
+  **Show a code**, and type it on the new browser's page.
+- **The phone app, or Infinity Core for Mac / Windows:** the same code — or Settings › Mobile App › **Show a code** for
+  a phone.
+- **No paired browser at hand:** press **Show a code** on the page, then right-click the Infinity Core icon ›
+  **Settings** › **View logs** and look for *Pairing code for your browser*. A code works once, for 5 minutes.
 
 ## Your music
 
-The music in **Files › Downloads** is your library. Put your albums there (any folders inside work).
+Your library is the music in **Files › Downloads › music** (any folders inside work). Keep it somewhere else — an
+external drive, for example? Right-click the Infinity Core icon › **Settings** › **Music Library** and pick that folder.
+More folders: give them to the app in Umbrel first (right-click › Settings), then in Infinity Core: Settings › Library
+› **Add folder** — ✎ gives each one a name.
 
 ## Good to know
 
-**Where it plays.** An Umbrel has no sound of its own. Open the device list and pick where the music goes: a DAP or a
+**Where it plays.** Open the device list and pick where the music goes: a USB DAC plugged into the Umbrel, a DAP or a
 phone over Infinity Link, an AirPlay, Google Cast or UPnP speaker, or Infinity Core for Mac or Windows on a computer.
 
 **Away from home.** In Infinity Core: Settings › Mobile App › **Link Anywhere** on, and sign in to Tailscale. On your
