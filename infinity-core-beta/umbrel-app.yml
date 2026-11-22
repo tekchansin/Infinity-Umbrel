@@ -22,7 +22,7 @@ environment:
     note: Your time zone, e.g. Asia/Bangkok or Europe/London — for the daily backup and the times Infinity Core shows.
 category: media
 name: Infinity Core (beta)
-version: "14.0-beta20"
+version: "14.0-beta21"
 tagline: Your music library, Qobuz and TIDAL on your Infinity DAP and speakers
 icon: https://raw.githubusercontent.com/tekchansin/Infinity-Umbrel/main/infinity-core-beta/icon.png
 description: >-
@@ -35,11 +35,8 @@ description: >-
   shown in a browser that is already paired (Settings › Devices & Sharing) or in this app's logs (right-click the
   app › Settings › View logs).
 releaseNotes: >-
-  Displays: show what plays on a TV or tablet in the house (Settings › Displays). Check this Core (Settings › About)
-  checks your setup and every device you play on, with the fix for anything missing. On Umbrel the music now plays with
-  real-time priority, phones get small covers, the box writes far less to its disk, and EQ changes are heard in seconds.
-  Forget an Infinity Link device you no longer use; Add by address finds a computer's shared devices. Updates come from
-  the Umbrel App Store, as before.
+  Send log report from an app that uses this Core (a Mac or Windows PC) now carries that computer's logs too, one code
+  for both; a Windows PC's shared devices keep a log of their own.
 developer: Anantar Ultimate
 website: https://anantarultimate.com
 dependencies: []
