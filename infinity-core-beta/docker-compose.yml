@@ -6,7 +6,7 @@ version: "3.7"
 # ponytail: amd64-only image (no arm64 index entry yet) — Umbrel's official store needs both; fine for a community store.
 services:
   server:
-    image: ghcr.io/tekchansin/infinity-core:14.0-beta19@sha256:6609b66611916c7d58e51fea17eef5da3512bcf1273b39f2595bb6d642ebb059
+    image: ghcr.io/tekchansin/infinity-core:14.0-beta20@sha256:82232c2be1a7f517356877f3c3c34c22def5bacd0ad0976cd2d1286ee32bbdc5
     network_mode: host
     restart: on-failure
     stop_grace_period: 30s
@@ -22,3 +22,5 @@ services:
       - /dev/snd:/dev/snd
     device_cgroup_rules:
       - "c 116:* rwm"  # ALSA (major 116)
+    cap_add:
+      - SYS_NICE  # the feeder and the DAC writer run real-time (SCHED_FIFO) — without it plain threads (owner 2026-11-22)
