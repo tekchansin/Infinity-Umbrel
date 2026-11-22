@@ -22,7 +22,7 @@ environment:
     note: Your time zone, e.g. Asia/Bangkok or Europe/London — for the daily backup and the times Infinity Core shows.
 category: media
 name: Infinity Core (beta)
-version: "14.0-beta21"
+version: "14.0-beta22"
 tagline: Your music library, Qobuz and TIDAL on your Infinity DAP and speakers
 icon: https://raw.githubusercontent.com/tekchansin/Infinity-Umbrel/main/infinity-core-beta/icon.png
 description: >-
@@ -35,8 +35,8 @@ description: >-
   shown in a browser that is already paired (Settings › Devices & Sharing) or in this app's logs (right-click the
   app › Settings › View logs).
 releaseNotes: >-
-  Send log report from an app that uses this Core (a Mac or Windows PC) now carries that computer's logs too, one code
-  for both; a Windows PC's shared devices keep a log of their own.
+  The library no longer reads the same folder again every few seconds. Shared speakers and headphones on a Mac or a
+  Windows PC now play beside the computer's other programs (an Exclusive switch per device for a DAC).
 developer: Anantar Ultimate
 website: https://anantarultimate.com
 dependencies: []
