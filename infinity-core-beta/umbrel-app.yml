@@ -22,7 +22,7 @@ environment:
     note: Your time zone, e.g. Asia/Bangkok or Europe/London — for the daily backup and the times Infinity Core shows.
 category: media
 name: Infinity Core (beta)
-version: "14.0-beta23"
+version: "14.0-beta25"
 tagline: Your music library, Qobuz and TIDAL on your Infinity DAP and speakers
 icon: https://raw.githubusercontent.com/tekchansin/Infinity-Umbrel/main/infinity-core-beta/icon.png
 description: >-
@@ -35,8 +35,9 @@ description: >-
   shown in a browser that is already paired (Settings › Devices & Sharing) or in this app's logs (right-click the
   app › Settings › View logs).
 releaseNotes: >-
-  Settings › Overview shows everything this Core is connected to in one picture, with a gold line that follows the
-  music. Phones show up in the device list at once, and the phone app asks where the sound goes at its first Play.
+  Sync with your DAP uses one pair of folders, so music copied from the DAP, tidied here and sent back lands where it
+  came from, and you see every file before a sync starts. Autoplay keeps the music going, and Precision Upsampling no
+  longer restarts the Core.
 developer: Anantar Ultimate
 website: https://anantarultimate.com
 dependencies: []
