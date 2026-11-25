@@ -6,7 +6,7 @@ version: "3.7"
 # ponytail: amd64-only image (no arm64 index entry yet) — Umbrel's official store needs both; fine for a community store.
 services:
   server:
-    image: ghcr.io/tekchansin/infinity-core:14.0-beta28@sha256:dedae279dddd0d291ae48d570be47113a2f21ce24fc44dff6571a68f97ebf60c
+    image: ghcr.io/tekchansin/infinity-core:14.0-beta29@sha256:9c542827cbc9566092d25e43fb6af1bb8d889c6fba65af38ae4cc8387db338c5
     network_mode: host
     restart: on-failure
     stop_grace_period: 30s
