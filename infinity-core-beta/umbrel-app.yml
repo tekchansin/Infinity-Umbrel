@@ -22,7 +22,7 @@ environment:
     note: Your time zone, e.g. Asia/Bangkok or Europe/London — for the daily backup and the times Infinity Core shows.
 category: media
 name: Infinity Core (beta)
-version: "14.0-beta27"
+version: "14.0-beta28"
 tagline: Your music library, Qobuz and TIDAL on your Infinity DAP and speakers
 icon: https://raw.githubusercontent.com/tekchansin/Infinity-Umbrel/main/infinity-core-beta/icon.png
 description: >-
@@ -35,9 +35,10 @@ description: >-
   shown in a browser that is already paired (Settings › Devices & Sharing) or in this app's logs (right-click the
   app › Settings › View logs).
 releaseNotes: >-
-  Every song on an album shows how many recordings of it there are — yours, TIDAL's and Qobuz's — and lists them all;
-  one artist page and one search for your library, TIDAL and Qobuz together; Private session (nothing you play is kept
-  for a few hours); each output keeps its own sound settings; dynamic range (DR14) on albums and in Now Playing.
+  Profiles: everyone at home gets their own favourites, history, playlists, Last.fm / ListenBrainz and TIDAL / Qobuz, and
+  up to four people play their own music at once, each on their own output. With Link Anywhere on, the speakers a computer
+  shares play from Infinity Core while you are away (lossless FLAC). Upkeep runs at night or when nothing plays;
+  ListenBrainz scrobbling; tap the output in use to disconnect it; Explicit E badges.
 developer: Anantar Ultimate
 website: https://anantarultimate.com
 dependencies: []
