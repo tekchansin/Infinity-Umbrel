@@ -33,7 +33,16 @@ Not covered by this Agreement, because each has its own licence:
   b) the code published as "Infinity Cloud";
 
   c) the third-party components listed on each product's third-party
-     software page.
+     software page;
+
+  d) the Infinity Core API: its specification, schemas, software
+     development kits and example extensions (MIT License).
+
+Programs You write that talk to Infinity Core through the Infinity Core
+API, or that Infinity Core asks for information as a web source, are
+Your own work and not a modification or derivative work of the
+Software. You may write, run, share and sell them. They must not
+contain or change any part of the Software beyond what d) covers.
 
 Nothing in this Agreement takes away a right that one of those licences
 gives You in that component. Where such a licence requires it (for example
